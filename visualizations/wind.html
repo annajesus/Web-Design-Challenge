@@ -7,6 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
     <!-- Add a title here -->
+    <title>Wind Speed</title>
 
     <!-- Boostrap Stylesheet -->
     <link rel="stylesheet" href="../assets/css/bootstrap.min.css" media="screen">
@@ -18,11 +19,98 @@
 
   <body>
     <!-- Start of navbar -->
+    <div class="navigation">      
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a style="color: rgb(2, 188, 172);" class="navbar-brand" href="index.html">Latitude</a>            
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+           aria-controls="navbarNavDropdown" aria-expanded="true" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                 Plots
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                <a class="dropdown-item" href="visualizations/temp.html">Max Temperature</a>
+                <a class="dropdown-item" href="visualizations/humidity.html">Humidity</a>
+                <a class="dropdown-item" href="visualizations/cloudiness.html">Cloudiness</a>
+                <a class="dropdown-item" href="visualizations/wind.html">Wind Speed</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="comparison.html">Comparison</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="data.html">Data</a>
+            </li>
+          </ul>
+        </div>            
+      </nav>       
+  
+  </div>
+
+
+
+
     <!-- End of navbar -->
 
     <!-- Start of container -->
 
+    <div class="container">
+      <div class="row">
+          <div class="col-lg-7 col-md-12">
+              <div class="box">
+                  <h3 class="title">Latitude vs Wind Speed</h3>
+                  <hr>
+                  <img src="../assets/images/Fig4ws.png" class="vizualization rounded float-left" alt="Latitude vs. Wind Speed">
+                  <p>The City Latitude vs. Wind Speed plot demonstrates that the wind appears to increase slightly as it moves away from the equator.
+                  </p>
+              </div>
+          </div>
+
           <!-- Start of Visualizations imageNav Area -->
+          <div class="col-lg-5 col-md-12">
+              <div class="box">
+                  <h3 class="title">VISUALIZATIONS</h3>
+                  <hr>
+                  <div class="container">
+                      <div class="row" style="padding-bottom: 70px;">
+                          <div class="col-6">
+                              <div class="title">Latitude vs. Max Temperature</div>
+                              <a href="visualizations/temp.html">
+                                <img class="panel" src="../assets/images/Fig1maxt.png" alt="Latitude vs. Max Temperature">
+                              </a>
+                          </div>
+                          <div class="col-6">
+                              <div class="title">Latitude vs. Humidity</div>
+                              <a href="visualizations/humidity.html">
+                                  <img class="panel" src="../assets/images/Fig2hum.png" alt="Latitude vs. Humidity">
+                              </a>
+                          </div>
+                      </div>
+                      <div class="row" style="padding-bottom: 70px;">
+                          <div class="col-6">
+                              <div class="title">Latitude vs. Cloudiness</div>
+                              <a href="visualizations/cloudiness.html">
+                                  <img class="panel" src="../assets/images/Fig3cloud.png" alt="Latitude vs. Cloudiness">
+                              </a>
+                          </div>
+                          <div class="col-6">
+                              <div class="title">Latitude vs. Wind Speed</div>
+                              <a href="visualizations/wind.html">
+                                  <img class="panel" src="../assets/images/Fig4ws.png" alt="Latitude vs. Wind Speed">
+                              </a>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+
+          
           <!-- End of the Visualizations imageNav Area -->
 
     <!-- End of container -->

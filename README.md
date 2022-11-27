@@ -5,13 +5,13 @@ Data becomes more powerful when you share it with others! That’s because peopl
 and CSS to create a dashboard featuring the Latitude vs. X analysis of weather.
 
 
-##Instructions
+# Instructions
 Create a website by using either the visualizations that you created for your Python-APIs Challenge or the weather dataandimages that are
 provided for this Challenge. To do so, use the considerations and website requirements that the following subsections describe. Also, ensure 
 that your repository has regular commits and a descriptive README.md file.
 
 
-##Considerations
+# Considerations
 Be aware that you must use Bootstrap. This includes using the Bootstrap navbar component for the header on every page, the Bootstrap grid for 
 responsiveness on the comparison page, and the Bootstrap table component for the data page.
 
@@ -24,7 +24,7 @@ responsiveness on the comparison page, and the Bootstrap table component for the
     * Feel free to take some liberties with the visual aspects, but keep the core functionality the same as the instructions describe. (For example, keep the comparison visualizations on the comparison page.)
 
 
-##Website Requirements
+# Website Requirements
 The overall requirements for your website are as follows:
 
     * Your website must consist of seven pages.
@@ -33,7 +33,6 @@ The overall requirements for your website are as follows:
 
     * Your website must be deployed to GitHub Pages.
 
-Next, we’ll describe these requirements in detail.
 
 Your website must consist of seven pages as follows:
 
